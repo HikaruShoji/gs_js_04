@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/mapstyle.css">
+</head>
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<body>
+  <h1>経路検索</h1>
+  <!-- MAP[START] -->
+  
+  <div class="directionsContainer">
+    <div id="directionsPanel"></div>
+    <div id="directionsItinerary"></div>
+  </div>
+  <div id="myMap"></div>
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key='
+    async defer></script>
+  <script src="js/mapmain.js"></script>
+</body>
+
+</html>
